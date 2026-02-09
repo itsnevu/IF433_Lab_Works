@@ -6,3 +6,4 @@ fun main() {
 
     println("Nama: $name, Nilai: $score")
 }
+
