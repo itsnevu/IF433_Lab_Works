@@ -13,4 +13,8 @@ class MathHelper {
     fun hitungLuas(jariJari: Double): Double {
         return 3.14 * jariJari * jariJari
     }
+
+    fun hitungLuas(panjang: Int, lebar: Int, tinggi: Int) :Int {
+        return panjang * lebar * tinggi
+    }
 }
