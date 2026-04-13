@@ -27,8 +27,7 @@ fun main() {
 
     processCheckout(pay1, 50000.0)
     processCheckout(pay2, 150000.0)
-
-
+    processCheckout(method = pay3, amount = 1000.0)
 
 
 
@@ -36,7 +35,7 @@ fun main() {
     println("\n=== TESTING SMART HOME SYSTEM ===")
     val hub = SmartHomeHub()
 
-    // Instansiasi perangkat sesuai skenario
+    // Inisiasi perangkat sesuai skenario
     val lampuTamu = SmartLamp("L01", "Ruang Tamu")
     val googleNest = SmartSpeaker("S01", "Google Nest Dapur")
     val cctvGarasi = SmartCCTV("C01", "Ezviz Garasi")
